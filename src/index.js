@@ -6,7 +6,7 @@ const run = async () => {
 
 	// Chargement des variables d'environnement si l'environnement
 	// n'est pas "production"
-	if (process.env.NODE_ENV !== 'production') {
+	if (process.env.TOKEN !== 'production') {
 		const dotenv = await import('dotenv')
 		dotenv.config({ path: './config/bot.env' })
 	}

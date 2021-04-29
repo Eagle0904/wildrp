@@ -14,7 +14,7 @@
 	"author": "",
 	"license": "ISC",
 	"scripts": {
-		"start": "node /src/node.js"
+		"start": "node /src/node.js/"
 	},
 	"bugs": {
 		"url": "https://github.com/TanguyChiffoleau/bot/issues"
